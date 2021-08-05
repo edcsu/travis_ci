@@ -3,6 +3,7 @@ function sleep(ms) {
 }
 
 async function main() {
+  console.log('Welcom to simple node program.');
   while(true) {
     console.log('Containers rule!');
     await sleep(5000);
